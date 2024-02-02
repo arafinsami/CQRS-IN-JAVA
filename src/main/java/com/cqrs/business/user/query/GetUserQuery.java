@@ -1,5 +1,6 @@
-package com.cqrs.query;
+package com.cqrs.business.user.query;
 
+import com.cqrs.query.Query;
 import lombok.Getter;
 
 @Getter

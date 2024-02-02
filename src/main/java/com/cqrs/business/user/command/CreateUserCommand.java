@@ -1,5 +1,6 @@
-package com.cqrs.command;
+package com.cqrs.business.user.command;
 
+import com.cqrs.command.Command;
 import lombok.Getter;
 
 @Getter

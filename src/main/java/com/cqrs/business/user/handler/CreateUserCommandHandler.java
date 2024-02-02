@@ -1,6 +1,7 @@
-package com.cqrs.handler;
+package com.cqrs.business.user.handler;
 
-import com.cqrs.command.CreateUserCommand;
+import com.cqrs.business.user.command.CreateUserCommand;
+import com.cqrs.handler.CommandHandler;
 
 public class CreateUserCommandHandler implements CommandHandler<CreateUserCommand> {
     @Override

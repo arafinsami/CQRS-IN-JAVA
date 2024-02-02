@@ -1,10 +1,11 @@
 package com.cqrs;
 
-import com.cqrs.command.CreateUserCommand;
-import com.cqrs.handler.CreateUserCommandHandler;
-import com.cqrs.handler.GetUserQueryHandler;
+
+import com.cqrs.business.user.command.CreateUserCommand;
+import com.cqrs.business.user.handler.CreateUserCommandHandler;
+import com.cqrs.business.user.handler.GetUserQueryHandler;
+import com.cqrs.business.user.query.GetUserQuery;
 import com.cqrs.mediator.ConcreteMediator;
-import com.cqrs.query.GetUserQuery;
 
 public class Main {
     public static void main(String[] args) {
